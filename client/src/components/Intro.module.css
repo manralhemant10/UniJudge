@@ -1,0 +1,106 @@
+.container {
+    width: 40%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    background: white;
+    padding: 40px;
+}
+
+.textGeneral {
+    text-align: center;
+    color: #484848;
+}
+
+.heading {
+    color: #000c79;
+}
+
+.search {
+    background: #f5f5f5;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    border: none;
+    padding: 8px 20px;
+}
+
+.search:focus, .search:active {
+    border: none;
+    outline: none;
+}
+
+.searchButton {
+    border-radius: 2px;
+    background-color: white;
+    border-width: 3px;
+    border-color: #00109B;
+    color: #00109B;
+    border-style: solid;
+    font-weight: 400;
+    outline: none;
+    padding: 8px 20px;
+    transition: all .2s;
+}
+
+.searchButton:focus, .searchButton:active {
+    outline: none;
+}
+
+.searchButton:active {
+    background-color: #d8e3f0;
+    border-radius: 14px;
+}
+
+.selectionButton {
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    width: 60%;
+    background: white;
+    padding: 8px 16px;
+}
+
+.selectionButton:focus, .selectionButton:active {
+    outline: none;
+}
+
+.selectionButton:active {
+    background: #e7e7e7;
+}
+
+.cancelSelection {
+    background: none;
+    border: none;
+    color: red;
+}
+
+.cancelSelection:focus, .cancelSelection:active {
+    outline: none;
+    border: none;
+}
+
+.cancelSelection:active {
+    font-size: 17px;
+}
+
+.generateButton {
+    border-radius: 30px;
+    background-color: white;
+    border-width: 3px;
+    border-color: #00109B;
+    color: #00109B;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    padding: 6px 18px;
+    width: 200px;
+}
+
+.generateButton:focus, .generateButton:active {
+    outline: none;
+}
+
+.generateButton:active {
+    background-color: #d8e3f0;
+    border-radius: 14px;
+}
